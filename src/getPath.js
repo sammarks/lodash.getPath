@@ -4,9 +4,7 @@
 	description: A lodash plugin extension for _.get, which allows intuitive paths eg. 'name[0,1]' and 'a.b[].x[-1].z'
 	license: MIT
 */
-if (typeof module === 'object' && require) {
-	var _ = require('lodash');
-}
+var _ = require('lodash');
 
 
 function _getPath(obj, path, _default) {
